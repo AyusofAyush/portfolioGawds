@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PORTFOLIO WEB</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  	function welcome() {
+  		var name =prompt('What is Your Name?');
+  		if(name == " ") {
+  			alert("Hey! Don't be Shy!\nWelcome to the portal.");
+  		}
+  		else {
+  			alert("Hey! "+ name + "\nWelcome to the portal.");
+  		}
+
+  	}
+  </script>
+  <style>
+  #overlay { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:30%;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-size: calc(2.8vw + 3vh + .8vmin); 
+}
+ #overlay2 { 
+  color:#cec8c8;
+  position:absolute;
+  z-index:12;
+  top:40%;
+  left:0;
+  width:100%;
+  text-align:center;
+  font-size: calc(1.5vw + 1vh + .8vmin);
+  font-family: "sans-serif";
+}
+
+ #overlay3 { 
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:65%;
+  left:0;
+  width:100%;
+  text-align:center;
+
+}
+
+ #overlayAbtHead { 
+  color:#fff;
+  position:absolute-fixed;
+  z-index:12;
+  top:135%;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+ #overlayfoot { 
+  color:#000;
+  position:absolute-fixed;
+  z-index:12;
+  left:0;
+  width:100%;
+  text-align:center; 
+}
+
+  #overlayGalleryHead { 
+  color:#fff;
+  position:absolute-fixed;
+  z-index:12;
+  left:0;
+  width:100%;
+  text-align:center; 
+}
+#num:hover {
+	color: red;
+}
+
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:60%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }
+}
+#foot {
+	font-size: calc(0.8vw + 0.6vh + .3vmin);
+}
+#foot1 {
+	font-size: calc(.5vw + .4vh + .2vmin);
+}
+.foot {
+	font-size: calc(1vw + 1vh + .5vmin);
+}
+
+#subscribe {
+	font-size: calc(1.5vw + 1.5vh + .8vmin);
+}
+  </style>
+}
+}
+}
+</head>
+<body onload="alert('HEY THERE!! WELCOME ')">
+<div id="Home">
+<div id="overlay" class="container"><p style="width: 100%"><strong>❝ P  O  R  T  F  O  L  I  O ❞</strong></p><br/></div>
+<div id="overlay2" class="container"><p style="width: 100%"><strong><i>Developed by Ayush Raj</i></strong></p><hr align="center" width="25%"></div>
+<div id="overlay3" class="container"> 
+	<a href="#" class="btn btn-warning btn-responsive btn-lg" onclick="welcome()"><span class="glyphicon glyphicon-tags"></span> &nbsp START EXPLORING</a>
+</div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+    </ol>
+
+    
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="everest.jpg" alt="everest" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="body_of_water.jpg" alt="body_of_water" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="coffee.jpg" alt="coffee" style="width:100%;">
+      </div>
+      
+      <div class="item">
+        <img src="cat_collar.jpg" alt="cat_collar" style="width:100%;">
+      </div>
+      
+      <div class="item">
+        <img src="balloon_flight.jpg" alt="balloon_flight" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="lighthouse.jpg" alt="lighthouse" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="chevrolet_camaro_chevrolet.jpg" alt="chevrolet_camaro_chevrolet" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="city_street.jpg" alt="city_street" style="width:100%;">
+      </div>  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ </div>
+ <div class="navbar-wrapper">
+  <div >
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      
+        <div class="navbar-header">
+	           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="#" onclick="alert('WELCOME TO THIS PORTAL \n Made by  \'AYUSH RAJ\'')">PORTFOLIO</a>
+        </div>
+        <div class="navbar-collapse collapse" id="myNavbar">
+          <ul class="nav navbar-nav ">
+            <li class="active"><a href="#Home" target="_self"><span class="glyphicon glyphicon-home"></span>ome</a></li>
+            <li><a href="#About" ><span class="glyphicon glyphicon-check">About</span></a></li>
+            <li><a href="#Gallery"><span class="glyphicon glyphicon-picture">Gallery</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user">Contact</span><b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#Contact">Call Now</a></li>
+                <li><a href="#Contact">Email </a></li>
+                <li><a href="#Contact">Address</a></li>
+                <li class="divider"></li>
+                <li><a href="#Contact">Booking</a></li>
+                <li><a href="#Contact">Subscribe</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="navbar-form navbar-right">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Search">
+    <div class="input-group-btn">
+      <button class="btn btn-default" type="submit" onclick="alert('This search button does not works! \nThis is designed just for frontend ')">
+        <i class="glyphicon glyphicon-search"></i> 
+      </button>
+    </div>
+  </div>&nbsp &nbsp
+</form>
+        </div>
+
+    </div>
+</div><!-- /container -->
+</div><!-- /navbar wrapper -->
+<div id="About" style="background-color: #f2f3f5;">
+<br>
+	<div id="overlayAbtHead">
+		<a href="#About" class="btn btn-primary btn-responsive btn-lg"><span class="glyphicon glyphicon-leaf"> ABOUT  </span> <span class="glyphicon glyphicon-pencil"></span></a>
+	</div>
+	<br>
+	
+<img class="img-responsive" src="about_edited.jpg" alt="About"/>
+<div id="overlayfoot">
+		<a class="btn btn-danger btn-responsive btn-lg btn-block" href="#About" onclick="alert('Do you really want to know more about me! \n Contact me (see below)')"><span class="glyphicon glyphicon-play"></span> More About ME</a>
+		
+	</div>
+</div>
+<div id="Gallery" style="background-color: black";>
+<br>
+		<div id="overlayGalleryHead">
+			<a href="#Gallery" class="btn btn-success btn-responsive btn-lg"><span class="glyphicon glyphicon-th-large"> Gallery</span></a>
+		</div>
+	<br>
+	<br>
+	<div id="overlayGallery" class="container-fluid" >
+	<div class="row">
+    <div class="col-md-3">
+      <div class="img-thumbnail">
+        <a href="snow_fox.jpg" target="_blank">
+          <img class="img-responsive" src="snow_fox.jpg" alt="snow_fox" style="width:100%">
+          <div class="caption">
+            <p>Snow FOX</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="img-thumbnail">
+        <a href="pink_bouquet.jpg" target="_blank">
+          <img class="img-responsive" src="pink_bouquet.jpg" alt="pink_bouquet" style="width:100%">
+          <div class="caption">
+            <p>Pink ROSE Bouquet</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="img-thumbnail">
+        <a href="algae_plant.jpg" target="_blank">
+          <img class="img-responsive" src="algae_plant.jpg" alt="algae_plant" style="width:100%">
+          <div class="caption">
+            <p>Algae Plant</p>
+          </div>
+        </a>
+      </div>
+    </div>
+        <div class="col-md-3">
+      <div class="img-thumbnail">
+        <a href="pepper_spices.jpg" target="_blank">
+          <img class="img-responsive" src="pepper_spices.jpg" alt="pepper_spices" style="width:100%">
+          <div class="caption">
+            <p>Peppers and Spices</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br>
+ <div id="overlayGallerylower" class="container-fluid">
+	<div class="row">
+    <div class="col-md-3">
+      <div class="img-thumbnail">
+        <a href="game_of_thrones.jpg" target="_blank">
+          <img class="img-responsive" src="game_of_thrones.jpg" alt="game_of_thrones" style="width:100%">
+          <div class="caption">
+            <p>Game of Thrones</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="img-thumbnail">
+        <a href="bear_grizzly.jpg" target="_blank">
+          <img class="img-responsive" src="bear_grizzly.jpg" alt="bear_grizzly" style="width:100%">
+          <div class="caption">
+            <p>Bear Grizzly</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="img-thumbnail">
+        <a href="wood_trees.jpg" target="_blank">
+          <img class="img-responsive" src="wood_trees.jpg" alt="wood_trees" style="width:100%">
+          <div class="caption">
+            <p>Wood Trees</p>
+          </div>
+        </a>
+      </div>
+    </div>
+        <div class="col-md-3">
+      <div class="img-thumbnail">
+        <a href="daisies_white.jpg" target="_blank">
+          <img class="img-responsive" src="daisies_white.jpg" alt="daisies_white" style="width:100%">
+          <div class="caption">
+            <p>Daisies White Flowers</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  	<br>
+  	<br>
+ </div>
+</div>
+<div class="jumbotron" style="position: relative;" id="Contact">
+ <div class="row">
+	<div class="col-sm-3" id="foot" align="center">
+		<h2 id="num" class="foot">CONTACT INFO</h2>
+			<p><span id="num" class="foot">Ayush Raj<br>
+			NIT Kurukshetra<br>
+			Thanesar, Haryana<br>
+			Email: Ayushraj@live.com<br>
+			IND +91-9728947065</span> <br>
+			</p>
+		<a href="#Contact" class="btn btn-success btn-responsive" id="foot" onclick="alert('Oh! really \n Dont be serious !\n This is a Gawds Project')">Hire me!</a>
+	</div>
+	<div class="col-sm-3" id="foot" align="center">
+		<h2 id="num" class="foot">BOOKING &amp TERMS</h2>
+		<p>
+			<a href="#" id="num" class="foot">About</a><br>
+			<a href="#" id="num" class="foot">Program</a><br>
+			<a href="#" id="num" class="foot">Booking</a><br>
+			<a href="#" id="num" class="foot">BLOG</a><br>
+			<a href="#" id="num" class="foot">FAQ</a><br>
+			<a href="#" id="num" class="foot">Terms &amp Condtions</a><br>
+
+		</p>
+	</div>	
+	<div class="col-sm-6" id="Subscribe" align="center">
+		<h2 id="num" class="foot">GET NEW FREEBIES EVERY WEEK!</h2>
+			<h5 id="num" class="foot">SIGN UP TO OUR NEWSLETTER</h5>
+			<div class="form-inline"><br>
+   				<input type="text" class="form-control" id="foot"
+   				placeholder="YOUR EMAIL ADDRESS" size="25" /><a href="#Contact" class="btn btn-primary btn-responsive" onclick="alert('You can contact me at Ayushraj@live.com or 9728947065 !! \nI\'m excited to hear something from you !!')">SUBSCRIBE</a>
+   			</div>	<br><br><br>	
+   			<a href="#" class="btn btn-info btn-sm" id="foot1"><span class="glyphicon glyphicon-circle-arrow-up"> TOP</span></a>
+   			
+
+	</div>
+</div>
+<hr>
+<div class="jumbotron" align="center">
+<div class="row">
+<div class="col-md-9">
+ <div class="container" style="position: relative;">
+ <footer class="container-fluid text-center" id="foot"> 
+ 	&copy This Webpage (frontend) is created by<span id="num"> Ayush Raj</span> <br>
+ 	of BTech 2nd year (IT branch).<br>
+ 	Project given by <span id="num">GAWDS CLUB</span>.</div>
+</footer>
+</div>
+<br>
+<div class="col-md-3" >
+   			<a href="https://facebook.com" target="_blank" class="btn btn-primary btn-md" id="foot1"> f </a>
+   			<a href="https://twitter.com" target="_blank" class="btn btn-info btn-md" id="foot1"> t </a>
+   			<a href="https://youtube.com" target="_blank" class="btn btn-danger btn-md" id="foot1">  Y</a>
+   			<a href="https://linkedin.com" target="_blank" class="btn btn-primary btn-md" id="foot1"> in</a>
+	</div>
+</div>
+</div>
+<hr>
+<hr>
+</body>
+</html>
