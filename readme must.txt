@@ -14,6 +14,5 @@ I hope you will like it for any further suggestions and modifications please con
 
 
 Ayush Raj 
-Btech IT 2nd Year 
-9728947065
-ayushraj@live.com
+Btech IT
+NIT KKR
